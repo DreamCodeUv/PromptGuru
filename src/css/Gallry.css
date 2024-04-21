@@ -1,0 +1,71 @@
+main {
+    min-height: 80vh;
+    width: 100%;
+    background-image: url('../assets//logo-bg/bg-tt.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Tag Containers */
+
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+.Tag-section {
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 12px;
+    width: 70%;
+    color: white;
+}
+ul.tag-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+li.tag-li {
+    font-size: 18px;
+    border: 2px solid;
+    height: 2rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    border-radius: 8px;
+    align-items: center;
+    padding: .2rem;
+    cursor: pointer;
+    background-color: #afafc485;
+    color: aqua;
+}
+
+.tag-li:hover{
+    background: #11041c;
+}
+
+@media(max-width:770px){
+    li.tag-li {
+    background-color: #6363eea6;
+    color: antiquewhite;
+}
+}
+@media(max-width:640px){
+    .Tag-section {
+        width: 80%;
+    }
+}
+@media (max-width:570px){
+    main {
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .Tag-section {
+        display: none;
+    }
+}

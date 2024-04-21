@@ -1,0 +1,51 @@
+.Galler-book {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.gallry-card {
+    background-color: #484f55c9;
+    width: 26%;
+    color: white;
+}
+.gal-img {
+    width: 100%;
+}
+img.image-art {
+    border: 2px solid;
+    width: 100%;
+}
+.tags-gal-desc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tags-gal-desc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+p.title {
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.view-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+button.view-btn-desc {
+    width: auto;
+    padding: 0.4rem;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.view-btn-desc:hover{
+    background-color: #1629299e;
+    color: antiquewhite;
+}
